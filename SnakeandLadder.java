@@ -6,6 +6,10 @@ public class SnakeandLadder {
 
         int position = 0;
 
-        System.out.println("position =" + position);
+        int randomCheck = (int) Math.floor (Math.random() * 10) % 6;
+
+        position = position + randomCheck;
+
+        System.out.println("position = " + position);
     }
 }
